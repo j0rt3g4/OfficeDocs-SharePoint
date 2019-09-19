@@ -22,7 +22,12 @@ description: "Learn how to change your SharePoint sharing settings."
 
 This article describes how global and SharePoint admins in Office 365 can change their organization-level sharing settings for SharePoint and OneDrive.
 
-For info about changing the external sharing setting for a site, see [Change the external sharing setting for a site](change-external-sharing-site.md). To learn how to change the external sharing setting for a user's OneDrive, see [Change the external sharing setting for a user's OneDrive](/onedrive/user-external-sharing-settings). 
+For end-to-end guidance around how to configure guest sharing in Microsoft 365, see:
+- [Collaborate with guests on a document](https://docs.microsoft.com/Office365/Enterprise/collaborate-on-documents)
+- [Collaborate with guests in a site](https://docs.microsoft.com/Office365/Enterprise/collaborate-in-a-site)
+- [Collaborate with guests in a team](https://docs.microsoft.com/Office365/Enterprise/collaborate-as-a-team)
+
+To learn how to change the external sharing setting for a user's OneDrive, see [Change the external sharing setting for a user's OneDrive](/onedrive/user-external-sharing-settings). 
   
  
 ## Change the organization-level external sharing setting
@@ -45,6 +50,8 @@ For info about changing the external sharing setting for a site, see [Change the
 >  The SharePoint setting applies to all site types, including those connected to Office 365 groups. <br> The OneDrive setting can be more restrictive than the SharePoint setting, but not more permissive. <br> The SharePoint external sharing setting on this page is the same as the one in the Microsoft 365 admin center, under **Settings** \> **Services & add-ins** \> **Sites**. These settings are also the same as those in the OneDrive admin center. 
 
 ![External sharing settings in the new SharePoint admin center](media/externalsharing.png)
+
+This setting is for your organization overall. Each site has its own sharing setting which you can set independently, though it must be at the same or more restrictive setting as the organization. See [Change the external sharing setting for a site](change-external-sharing-site.md) for more information.
   
 ### Which option to select...
 
